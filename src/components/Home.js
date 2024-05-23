@@ -1,4 +1,4 @@
-import React from "react";
+/*import React from "react";
 import { name, city } from "../data/data.js";
 
 function Home() {
@@ -6,4 +6,20 @@ function Home() {
   return <div>Home</div>;
 }
 
+export default Home;*/
+
+import React from 'react';
+import { username, city } from '../data/user';
+
+const Home = () => {
+  return (
+    <div id="home">
+      <h1 style={{ color: 'firebrick' }}>
+        {username} is a Web Developer from {city}
+      </h1>
+    </div>
+  );
+};
+
 export default Home;
+
